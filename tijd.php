@@ -7,21 +7,21 @@ foreach($set as $value){
     case "s": 
             $antwoord = (int)$value;
             $totaal += $antwoord;
-         break;
+        break;
     case "m":
             $antwoord = (int)$value * 60;
             $totaal += $antwoord;
-         break;
+        break;
     case "h":
             $antwoord = (int)$value * 3600;
             $totaal += $antwoord;
-         break;
+        break;
     case "d":
             $antwoord = (int)$value * 86400;
             $totaal += $antwoord;
-         break;       
+        break;       
     }
- }
+}
 echo $totaal . " seconden";
 
 ?>
